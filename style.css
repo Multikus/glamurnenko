@@ -1,0 +1,178 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Oranienbaum', sans-serif;
+}
+
+p, span, li, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    background-color: white;
+}
+
+header {
+    background-image: url(/img/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+} 
+
+.nav {
+    background-color: transparent;
+}
+.navbar-toggler {
+    color: gray;
+    border-color: gray;
+    background-color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.box-logo { 
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.header-contact a {
+    color:  white;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.mission {
+    font-size: 30px;
+    color: white;
+}
+
+.mission-text { 
+    padding-top: 5rem;
+    color: #e9ae1f;
+    text-decoration: underline;
+}
+
+.new  {
+    position: relative;
+    height: 40px;
+    width: 170px;
+    background-color: red;
+    rotate: -45deg;
+    text-align: center;
+    padding: 5px;
+    left: -12px;
+    top: 5px;
+    
+}
+/* 
+.new::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 20px 40px 20px;
+    border-color: transparent transparent #FF0000 transparent;
+    transform: rotate(45deg);
+    top: 0px;
+    left: 0px;
+    
+} */
+
+.how-to__step-list {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.table-header--yellow {
+    background-color: #FDC400;
+}
+
+.tbody--light-yellow {
+    background-color: #FFF100;
+}
+
+.table-bordered td, .table-bordered th {
+    border-color: #FFD100;
+}
+
+.services__old-price {
+    position: relative;
+    display: inline-flex;
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+
+.services__old-price::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    width: 55px;
+    transform: rotate(350deg);
+    height: 0;
+    border-bottom: 2px solid red;
+
+}
+
+.line {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-bottom: 2px solid red;
+}
+
+.main-content {
+    margin: 0 auto;
+}
+
+.carousel {
+    color: #170724;
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 160px;
+    margin-right: 6px;
+
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.hov-card:hover {
+    box-shadow: 0px -11px 21px 9px rgba(34, 60, 80, 0.33);
+    -webkit-box-shadow: 0px -11px 21px 9px rgba(34, 60, 80, 0.33);
+    -moz-box-shadow: 0px -11px 21px 9px rgba(34, 60, 80, 0.33);
+}
