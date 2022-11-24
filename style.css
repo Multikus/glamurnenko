@@ -71,31 +71,50 @@ header {
     text-decoration: underline;
 }
 
-.new  {
+.style-help__box {
     position: relative;
-    height: 40px;
-    width: 170px;
-    background-color: red;
-    rotate: -45deg;
-    text-align: center;
-    padding: 5px;
-    left: -12px;
-    top: 5px;
-    
 }
-/* 
-.new::after {
+
+.ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: -48px;
+    left: -10px;
+}
+
+.ribbon-wrap::before, .ribbon-wrap::after {
     content: "";
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 0 20px 40px 20px;
-    border-color: transparent transparent #FF0000 transparent;
-    transform: rotate(45deg);
-    top: 0px;
-    left: 0px;
-    
-} */
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}
+
+.ribbon-wrap::before {
+    top: 0;
+    right: 0;
+}
+
+.ribbon-wrap::after {
+    bottom: 0;
+    left: 0;
+}
+.ribbon  {
+    width: 225px;
+    text-align: center;
+    padding: 8px 0;
+    background-color: red;
+    color: white;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17%;
+    top: 29%;
+
+}
+
 
 .how-to__step-list {
     margin: 0 auto;
